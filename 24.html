@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kuilu bara skanas</title>
+<style>
+/* Pamata izkārtojums — šīs rindas nemaini */
+body { font-family: Arial, sans-serif; max-width: 680px; margin: 24px auto; padding: 16px; line-height: 1.6; }
+button, input { font: inherit; padding: 10px; margin: 4px; cursor: pointer; }
+img, audio { max-width: 100%; }
+[hidden] { display: none !important; }
+
+/* MAINI ŠEIT: skaņas bloku izskats */
+.skana {
+  background-color: #d0d2d3;
+  border: 12px solid #723e0e;
+  padding: 16px;
+  margin: 16px 0;
+  box-sizing: border-box;
+}
+</style>
+</head>
+<body>
+<h1>Kuilu bara skanas</h1>
+<p>Noklausies kuilu baras skaņas efektus ar atskaņošanas pogu.</p>
+<div class="skana">
+  <h2>kaula skaņa</h2>
+  <p>Šo skaņu dzirdēsi, kad savāksi kuila mantu.</p>
+  <audio controls src="klikskis.wav"></audio>
+</div>
+<div class="skana">
+  <h2>kuila bara skaņa</h2>
+  <p>Šo skaņu dzirdēsi, kad savāksi kuila baru.</p>
+  <audio controls src="klikskis.wav"></audio>
+</body>
+</html>
